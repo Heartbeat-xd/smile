@@ -8,15 +8,15 @@ import os
 import re
 
 
-API_ID = os.environ.get("API_ID", "none") 
-API_HASH = os.environ.get("API_HASH", "none") 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "none") 
-MONGO_URL = os.environ.get("MONGO_URL", "none")
-BOT_IMAGE = os.environ.get("BOT_IMAGE", "none")
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "none")
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "none")
-SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "none")
-UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "none")
+API_ID = os.environ.get("API_ID", "19206801") 
+API_HASH = os.environ.get("API_HASH", "00e11156f4ac515f30b0f448f16cbb06") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6466542654:AAHi2Ryde_6D_rvad0ivABEwsZfzSOJq_tQ") 
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://oliva:oliva123@cluster0.6cohqfv.mongodb.net/?retryWrites=true&w=majority")
+BOT_IMAGE = os.environ.get("BOT_IMAGE", "https://telegra.ph/file/e2b8b292a325be393d1d3.jpg")
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "SMILE_CHAT_ROBOT")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "shayarakhawab")
+SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "Y_K_B_M")
+UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "AboutshayarAkhawab")
 
 
 bot = Client(
